@@ -1,0 +1,56 @@
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fieldset {
+	width: 250px;
+	border-radius: 10px;
+	background-color: #d8d8d8;
+	border: 1px solid;
+}
+
+label,
+.field {
+	display: block;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+span {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+input {
+	padding: 5px 5px;
+}
+
+.field,
+textarea {
+	width: 300px;
+	border: 1px solid;
+}
+
+input,
+textarea,
+button {
+	border-radius: 5px;
+}
+
+#agreement,
+button {
+	cursor: pointer;
+	background-color: #b0ffdc;
+}
+
+textarea {
+	resize: vertical;
+	min-height: 50px;
+	max-height: 200px;
+}
+
+button {
+	padding: 5px;
+}
